@@ -174,3 +174,37 @@ footer{
   margin-bottom: 10px;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .main-section-top h1 {
+    font-size: 3rem;
+  }
+
+  .main-section-top h2 {
+    font-size: 2rem;
+  }
+
+  .main-section-info-items{
+    padding: 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .main-section-info-items img{
+    width: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+
+  .footer-info{
+    flex-direction: column-reverse;
+  }
+
+  .footer-info div:last-child{
+    width: 100%;
+  }
+
+  .footer-info iframe{
+    width: 100%;
+  }
+}

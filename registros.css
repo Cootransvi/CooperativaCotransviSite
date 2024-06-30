@@ -128,3 +128,16 @@ footer{
   margin-bottom: 10px;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+  .footer-info{
+    flex-direction: column-reverse;
+  }
+
+  .footer-info div:last-child{
+    width: 100%;
+  }
+
+  .footer-info iframe{
+    width: 100%;
+  }
+}
